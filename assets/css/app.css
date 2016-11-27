@@ -1,0 +1,58 @@
+.jumbotron{
+    background: url(../images/tea2.jpg)  no-repeat center center fixed;
+    background-size:cover;
+    position : relative;
+    padding-top:70px;
+}
+.text-white {color:#fff !important}
+.btn-bottom {position:absolute;bottom: 180px;left:45%}
+#questions  {padding:100px ; background:lightgreen;margin-top: -30px}
+div#questions h1 {padding-bottom:40px}
+div#questions small {color:grey;font-size:16px}
+#first {padding-left:40px;}
+.section input[type="radio"],
+.section input[type="checkbox"]{
+  display: none;
+}
+hr { margin-left: -40px}
+.wrapper{
+    padding : 10px;
+}
+.wrapper span{
+    font-size : 24px !important;
+    font-weight : 200;
+}
+.wrapper label {
+  position: relative;
+}
+.wrapper span::before,
+.wrapper span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.wrapper span.radio:hover {
+  cursor: pointer;
+}
+.wrapper span.radio::before {
+  left: -52px;
+  width: 45px;
+  height: 25px;
+  background-color: #A8AAC1;
+  border-radius: 50px;
+  margin-right:50px;
+}
+.wrapper span.radio::after {
+  left: -49px;
+  width: 17px;
+  height: 17px;
+  border-radius: 10px;
+  background-color: #6C788A;
+  transition: left .25s, background-color .25s;
+}
+input[type="radio"]:checked + label span.radio::after {
+  left: -27px;
+  background-color: #EBFF43;
+}
