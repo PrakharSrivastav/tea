@@ -3,6 +3,7 @@
     background-size:cover;
     position : relative;
     padding-top:70px;
+    overflow-y : hidden;
 }
 .text-white {color:#fff !important}
 .btn-bottom {position:absolute;bottom: 180px;left:45%}
